@@ -1,0 +1,15 @@
+* {
+  text-align: center;
+}
+
+.node {
+  background-color: rgb(70, 128, 228);
+  border-radius: 30px;
+  color: white;
+  width: 300px;
+  margin: 100px auto;
+}
+
+.children {
+  display: flex;
+}

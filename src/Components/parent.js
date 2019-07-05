@@ -10,7 +10,7 @@ class Parent extends Component {
           :
           <div className='parents'>
             {Object.keys(this.props.parents).map((parent, i) => {
-              return <h2 className='node' onClick={this.props.changeData}>{this.props.parents[parent]}</h2>
+              return <p className='parent' key={i} onClick={this.props.changeData}>{this.props.parents[parent]}</p>
             })}
           </div>
         }

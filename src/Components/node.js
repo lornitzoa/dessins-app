@@ -11,7 +11,7 @@ class Node extends Component {
         {this.props.children ?
           <div className='children'>
             {Object.keys(this.props.children).map((child, i) => {
-              return <h2 className='node' key={i} onClick={this.props.changeData}>{this.props.children[child]}</h2>
+              return <p className='child' key={i} onClick={this.props.changeData}>{this.props.children[child]}</p>
             })}
           </div>
           :

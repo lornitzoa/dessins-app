@@ -3,7 +3,7 @@ import Node from './Components/node'
 import './App.css'
 import axios from 'axios'
 
-let api_url = 'https://behaver-api.herokuapp.com/'
+let api_url = 'https://behaver-api.herokuapp.com'
 
 
 

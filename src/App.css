@@ -24,6 +24,10 @@ body {
   margin-right: 5px;
 }
 
+.child:hover, .node:hover, .parent:hover {
+  background-color: rgb(249, 188, 6);
+}
+
 .children, .parents {
   display: flex;
   justify-content: center;
